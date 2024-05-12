@@ -10,13 +10,13 @@ include device/oneplus/sm7550-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oneplus/benz
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP591BL1,OP594DL1
+TARGET_OTA_ASSERT_DEVICE := OP5D3FL1,benz
 
 # Display
 TARGET_SCREEN_DENSITY := 450
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/oplus/benz.config
+#TARGET_KERNEL_CONFIG += vendor/oplus/benz.config
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

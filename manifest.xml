@@ -3,6 +3,11 @@
      SPDX-License-Identifier: BSD-3-Clause
 -->
 <manifest version="5.0" type="device" target-level="7">
+<!--    <hal format="aidl">-->
+<!--	<version>1</version>-->
+<!--        <name>android.hardware.biometrics.fingerprint</name>-->
+<!--        <fqname>IFingerprint/default</fqname>-->
+<!--    </hal>-->
     <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>

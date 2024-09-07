@@ -48,6 +48,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.communicationcenter</name>
+	<version>2</version>
         <interface>
             <name>IDmtpService</name>
             <instance>default</instance>
@@ -85,6 +86,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.sendextcamcmd</name>
+	<version>1-2</version>
         <interface>
             <name>ISendExtCamCmdService</name>
             <instance>default</instance>

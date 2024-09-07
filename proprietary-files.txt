@@ -2683,12 +2683,26 @@ vendor/lib64/libwvaidl.so
 # WiFi
 odm/etc/wifi/bdwlan.elf
 odm/etc/wifi/regdb.bin
-odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+odm/etc/wifi/bin_version
+odm/etc/wifi.cfg
+odm/etc/wifi/bin_version
+odm/etc/wifi/cnss_diag.conf
+odm/etc/wifi/cnss_diag_always_on.conf
+odm/etc/wifi/kiwi/regdb.bin
+odm/etc/wifi/kiwi/regdb_version
+odm/etc/wifi/regdb_version
+odm/etc/wifi/sar-vendor-cmd.xml
+odm/etc/wifi/wifisar.cfg
+vendor/etc/init/init.vendor.wlan.rc
 vendor/bin/cnss-daemon
 vendor/etc/wifi/icm.conf
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/vendor_cmd.xml
 vendor/etc/wifi/wpa_supplicant_overlay.conf
+vendor/etc/wifi/qca6750/WCNSS_qcom_cfg.ini
+odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+odm/vendor/etc/wifi/WCNSS_qcom_cfg_cmcc.ini
+odm/vendor/etc/wifi/WCNSS_qcom_cfg_roam.ini
 
 # WiFi Display
 system/framework/WfdCommon.jar
